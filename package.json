@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/liftsvg",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Lift timestamps and svg durations for scripts and CI receipts.",
+  "bin": {
+    "liftsvg": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/liftsvg.git"
+  },
+  "homepage": "https://theworker02.github.io/liftsvg/",
+  "keywords": [
+    "lift",
+    "svg",
+    "time",
+    "cli",
+    "toolkit"
+  ]
+}
